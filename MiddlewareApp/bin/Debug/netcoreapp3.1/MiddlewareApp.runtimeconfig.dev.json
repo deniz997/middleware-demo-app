@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\deniz.tecimer\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\deniz.tecimer\\.nuget\\packages"
+      "C:\\Users\\lenovo\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\lenovo\\.nuget\\packages"
     ]
   }
 }

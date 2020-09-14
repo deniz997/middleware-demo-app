@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,26 +9,28 @@ using System.Threading.Tasks;
 
 namespace MiddlewareApp.Middleware
 {
-    public class ExternalMiddleware
+    public class LoggerMiddleware
     {
         private readonly RequestDelegate _next;
-        public ExternalMiddleware(RequestDelegate next)
+        private readonly ILogger _logger;
+        public LoggerMiddleware(RequestDelegate next, ILoggerFactory loggerFactory)
         {
             _next = next;
+            _logger = loggerFactory.CreateLogger("LoggerMiddleware");
         }
 
         public async Task Invoke(HttpContext httpContext)
         {
+            _logger.LogInformation("Incoming request");
             await _next(httpContext);
-           
-            await httpContext.Response.WriteAsync("<h5>Hello from external middleware</h5>");
+            _logger.LogInformation("Outgoing response");
         }
     }
 
     public static class AppBuilderExtensions
     {
-        public static void UseExternalMiddleware(this IApplicationBuilder app){
-            app.UseMiddleware<ExternalMiddleware>();
+        public static void UseLoggerMiddleware(this IApplicationBuilder app){
+            app.UseMiddleware<LoggerMiddleware>();
         }
     }
 }

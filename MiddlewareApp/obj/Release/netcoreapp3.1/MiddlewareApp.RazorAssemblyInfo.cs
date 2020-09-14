@@ -11,13 +11,7 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("MiddlewareApp")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("MiddlewareApp")]
-[assembly: System.Reflection.AssemblyTitleAttribute("MiddlewareApp")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: Microsoft.AspNetCore.Mvc.ApplicationParts.RelatedAssemblyAttribute("MiddlewareApp.Views")]
 
 // MSBuild WriteCodeFragment sınıfı tarafından oluşturuldu.
 
