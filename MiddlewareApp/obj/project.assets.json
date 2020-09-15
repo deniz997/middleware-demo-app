@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\lenovo\\.nuget\\packages\\": {}
+    "C:\\Users\\deniz.tecimer\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lenovo\\Desktop\\PW-Projects\\middleware-app\\MiddlewareApp\\MiddlewareApp.csproj",
+      "projectUniqueName": "C:\\Users\\deniz.tecimer\\Desktop\\Projects\\middleware-app\\MiddlewareApp\\MiddlewareApp.csproj",
       "projectName": "MiddlewareApp",
-      "projectPath": "C:\\Users\\lenovo\\Desktop\\PW-Projects\\middleware-app\\MiddlewareApp\\MiddlewareApp.csproj",
-      "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lenovo\\Desktop\\PW-Projects\\middleware-app\\MiddlewareApp\\obj\\",
+      "projectPath": "C:\\Users\\deniz.tecimer\\Desktop\\Projects\\middleware-app\\MiddlewareApp\\MiddlewareApp.csproj",
+      "packagesPath": "C:\\Users\\deniz.tecimer\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\deniz.tecimer\\Desktop\\Projects\\middleware-app\\MiddlewareApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\deniz.tecimer\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
